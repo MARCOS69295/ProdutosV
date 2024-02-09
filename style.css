@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#product-form {
+    margin-bottom: 20px;
+}
+
+#product-form input {
+    margin-right: 10px;
+}
+
+#product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#product-table th, #product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#product-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#product-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
